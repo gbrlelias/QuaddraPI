@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mainpage</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>logo</h1>
+      </div>
+      <div class="nav-list">
+        <ul class="menu-a">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Agendamentos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+
+        </ul>
+      </div>
+
+      <div class="login-button">
+        <button>Sair</button>
+      </div>
+
+      <div class="mobile-menu-icon">
+        <button type="button" (click)="menuShow()"><img class="icon" src="../../assets/hamb.png"></button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <ul *ngIf="menuVisible" class="menu-b">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Agendamentos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="box-btn-main">
+      <a href="">Teste 1</a>
+      <a href="">Teste 1</a>
+    </div>
+    <div class="box-btn-main">
+      <a href="">Teste 1</a>
+      <a href="">Teste 1</a>
+    </div>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

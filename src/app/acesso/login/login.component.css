@@ -1,0 +1,37 @@
+.titulo{
+color: #260db3;
+position:relative;
+padding-bottom: 10%;
+text-align: center;
+
+}
+
+.card-title {
+    background-image: url("/assets/Vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100%;
+    
+}
+.card {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+  .form-group{
+    margin-bottom: 10px;
+    color: black;
+}
+.btn {
+    color: #ffffff;
+    background-color: #2d1f80;
+}
+.card-link{
+    color: #2d1f80;
+}
+.small text-danger{
+    color: black;
+}
